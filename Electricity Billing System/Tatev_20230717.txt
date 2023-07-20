@@ -1,0 +1,5 @@
+Tatev's electricity bill report from 12-06-2023 to 12-07-2023:
+Consumption: 150.000000kWh
+Rate per unit for electricity: 5AMD
+
+Bill for the period: 750.000000AMD

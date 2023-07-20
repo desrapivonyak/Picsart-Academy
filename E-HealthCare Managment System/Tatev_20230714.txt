@@ -1,0 +1,16 @@
+Details about patient:
+----------------------------------------
+Name: Tatev
+Gender : Female
+Birthday: 12/4/1993
+Contact: +1 374 4472882
+----------------------------------------
+
+Medical History Report for Tatev:
+----------------------------------------
+Diagnoses:
+-a
+Treatments:
+-b
+Medications:
+-c

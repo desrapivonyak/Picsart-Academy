@@ -1,0 +1,31 @@
+Here is the detailed information about customer and his interation history : 
+---------------------------------------------------------------------------
+Name: John
+Contact: +(374) 44725852
+---------------------------------------------------------------------------
+Interaion type:
+
+1.-*Sale:
+ -Date: 12-7-2023
+ -Amount: 2500.000000
+ -Waranty period: 365
+2.-*Complaint:
+ -Complaint description: Everything was good.
+*Sale:
+ -Date: 12-7-2023
+ -Amount: 2500.000000
+ -Waranty period: 365
+3.-*Warranty:
+ -Service cost: 250.000000
+*Sale:
+ -Date: 12-7-2023
+ -Amount: 2500.000000
+ -Waranty period: 365
+4.-*Complaint:
+ -Complaint description: The service was awful.
+*Sale:
+ -Date: 12-7-2023
+ -Amount: 2500.000000
+ -Waranty period: 365
+---------------------------------------------------------------------------
+
