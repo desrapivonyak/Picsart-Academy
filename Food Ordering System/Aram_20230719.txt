@@ -1,0 +1,10 @@
+--------------------------------------------
+Resident: Yerevan Park
+Order items:
+* burger x 3 - 5250 AMD
+* free x 2 - 1000 AMD
+* juice x 5 - 4000 AMD
+* pizza x 1 - 3500 AMD
+Order price: 13750 AMD
+Payed by card
+
