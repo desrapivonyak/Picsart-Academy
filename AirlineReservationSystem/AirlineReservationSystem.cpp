@@ -43,7 +43,7 @@ void AirlineReservationSystem::book_flight(const User& user, Flight* fl) {
 	for (auto flight : flights) {
 		if (fl->get_flight_number() == flight->get_flight_number()) {
 			if (flight->get_available_seats() == 0) {
-				m_ticket = "There is no available seats in this flight.\n";
+				 std::cout << "There is no available seats in this flight.\n";
 			}
 			else {
 				m_ticket = "Ticket owner: " + user.get_name();
@@ -53,12 +53,12 @@ void AirlineReservationSystem::book_flight(const User& user, Flight* fl) {
 				m_ticket += "/" + std::to_string(flight->get_date().month);
 				m_ticket += "/" + std::to_string(flight->get_date().year);
 				fl->set_seats(fl->get_available_seats() - 1);
+				generate_ticket();
 			}
 		}
 		else {
-			m_ticket = "There is no such flight.\n";
+			 std::cout << "There is no such flight.\n";
 		}
-		generate_ticket();
 	}
 }
 
