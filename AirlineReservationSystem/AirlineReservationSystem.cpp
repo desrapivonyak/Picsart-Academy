@@ -41,16 +41,24 @@ Flight* AirlineReservationSystem::search_by_date(const Date& date) {
 
 void AirlineReservationSystem::book_flight(const User& user, Flight* fl) {
 	for (auto flight : flights) {
-		if (fl->get_origin() == flight->get_origin()) {
-			m_ticket = "Ticket owner: " + user.get_name();
-			m_ticket += "\nDeparture from : " + flight->get_origin();
-			m_ticket += "\nArrival to : " + flight->get_destination();
-			m_ticket += "\nDeparture date : " + std::to_string(flight->get_date().day);
-			m_ticket += "/" + std::to_string(flight->get_date().month);
-			m_ticket += "/" + std::to_string(flight->get_date().year);
-			fl->set_seats(fl->get_available_seats() - 1);
-			generate_ticket();
+		if (fl->get_flight_number() == flight->get_flight_number()) {
+			if (flight->get_available_seats() == 0) {
+				m_ticket = "There is no available seats in this flight.\n";
+			}
+			else {
+				m_ticket = "Ticket owner: " + user.get_name();
+				m_ticket += "\nDeparture from : " + flight->get_origin();
+				m_ticket += "\nArrival to : " + flight->get_destination();
+				m_ticket += "\nDeparture date : " + std::to_string(flight->get_date().day);
+				m_ticket += "/" + std::to_string(flight->get_date().month);
+				m_ticket += "/" + std::to_string(flight->get_date().year);
+				fl->set_seats(fl->get_available_seats() - 1);
+			}
 		}
+		else {
+			m_ticket = "There is no such flight.\n";
+		}
+		generate_ticket();
 	}
 }
 
