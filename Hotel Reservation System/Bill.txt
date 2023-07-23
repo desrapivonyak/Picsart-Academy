@@ -1,0 +1,3 @@
+Single room reserved by John for 10 days  and overall bill is 100000 AMD.
+Double room reserved by Ivan for 12 days  and overall bill is 180000 AMD.
+Suit room reserved by Anna for 7 days  and overall bill is 175000 AMD.
