@@ -1,0 +1,16 @@
+--------------------------------------------
+Blood donation details:
+Date - 25/7/2023
+Blood count in ml - 50.000000 ml
+Blood type - red blood
+--------------------------------------------
+Blood donation details:
+Date - 25/7/2018
+Blood count in ml - 60.000000 ml
+Blood type - red blood
+--------------------------------------------
+Blood utilization details:
+Date - 25/7/2023
+Blood count in ml - 60.000000 ml
+Blood type - red blood
+
