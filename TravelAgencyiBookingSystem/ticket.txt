@@ -1,0 +1,5 @@
+Travel package information:
+Destination - London
+Package price - 1800 USD
+Slots - 3
+Ticket price - 5400 USD
