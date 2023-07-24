@@ -1,0 +1,5 @@
+Movie: Oppenheimer
+Showtime: 15/8/2023
+Duration: 180 minutes
+Seats: 15
+
