@@ -1,0 +1,5 @@
+Shoes
+from: London
+to: New York
+registered on: 25/7/2023
+estimated delivery time: 6/8/2023

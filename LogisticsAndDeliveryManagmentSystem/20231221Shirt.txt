@@ -1,0 +1,5 @@
+Shirt
+from: Yerevan
+to: New York
+registered on: 21/12/2023
+estimated delivery time: 2/1/2024
