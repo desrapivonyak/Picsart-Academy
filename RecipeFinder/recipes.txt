@@ -1,0 +1,6 @@
+Name : Cook1
+Ingredients : ingr1 ing2 ing3 
+Instructions : Cooking instruction
+Name : Fish
+Ingredients : Fish 
+Instructions : Cook fish
